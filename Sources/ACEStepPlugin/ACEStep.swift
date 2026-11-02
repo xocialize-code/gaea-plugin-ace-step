@@ -242,7 +242,7 @@ let composeOffer = PluginManifest.Offer(
     ])
 
 public let aceStepPlugin = GaeaPluginDefinition(
-    id: "com.xocialize.gaea.ace-step", version: "0.1.0", minGaea: "0.9.2", team: "CFZS6RXUCP",
+    id: "com.xocialize.gaea.ace-step", version: "0.1.1", minGaea: "0.9.2", team: "CFZS6RXUCP",
     repo: "https://github.com/xocialize-code/gaea-plugin-ace-step", title: "ACE-Step 1.5",
     summary: "ACE-Step 1.5: songs from a caption and lyrics, or instrumentals, 10 to 600 s at 48 kHz stereo (MES audio.compose), with a reference's timbre, cover, repaint and extend edits, pinned anchors and line timestamps.",
     license: "MIT", executable: "gaea-ace-step-worker",
